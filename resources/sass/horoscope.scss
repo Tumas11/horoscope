@@ -1,0 +1,85 @@
+.horoscope-container {
+    display: block;
+    width: 90%;
+    margin: auto;
+    background-color: lightblue;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 2em;
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    font-size: x-large;
+}
+.cell {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 2px;
+    text-align: center;
+    padding: 3px;
+    background-color: lightcyan;
+font-family: 'Courgette', cursive;
+    a {
+        font-family: 'Courgette', cursive;
+
+        text-decoration: none;
+    }
+}
+.month-container {
+    display: block;
+    height: 250px;
+    margin: 2em;
+}
+.month-cell {
+    display: block;
+    width: 248px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 2px;
+    text-align: center;
+background-color: lightcyan;
+font-family: 'Courgette', cursive;
+font-size: x-large;
+}
+.week {
+    font-size: small;
+}
+.calendar {
+    display: block;
+    font-family: 'Courgette', cursive;
+    text-align: center;
+}
+.calendar-container {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+.ratings {
+    margin: 5em;
+    font-weight: bold;
+}
+.input-form {
+    display: flex;
+    flex-direction: column;
+    padding: 0 auto;
+}
+.input {
+    display: flex;
+    margin: 2em;
+    // width: 20px;
+    justify-content: center;
+    input, select { 
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+button {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+background-color: lightskyblue;
+font-weight: bold;
+}
+}
+.reference {
+    font-size: xx-large;
+    margin-top: 5em;
+}
